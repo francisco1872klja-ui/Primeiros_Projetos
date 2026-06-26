@@ -3,7 +3,7 @@ import Moeda
 while True:
     try:
         Moeda.menu()
-        escolha=int(input("Converter R$ para qual moeda?: "))
+        escolha=int(input("Converter para qual moeda?: "))
         if escolha==4:
             break
         elif escolha==1:
